@@ -9,7 +9,9 @@
         "email": "office@pixelairport.com"
     }],
     "autoload": {
-        "Pixelairport\\ScoutConnect\\": "src/"
+        "psr-4": {
+            "Pixelairport\\ScoutConnect\\": "src/"
+        }
     },
     "require": {
         "php": "^7.0|^8.0",
