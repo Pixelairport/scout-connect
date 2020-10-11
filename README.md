@@ -50,8 +50,8 @@ You can write me everytime. I'm a Growth Hacker and you can book me. I do develo
 
 [de]
 
-Alle Infos dazu im <a href="https://github.com/Pixelairport/scout-connect/wiki">Wiki</a>.
+Das Paket kann per ``composer require pixelairport/scout-connect`` geladen werden. Alle Infos dazu im <a href="https://github.com/Pixelairport/scout-connect/wiki">Wiki</a>. 
 
 [de]
 
-For more infos see the <a href="https://github.com/Pixelairport/scout-connect/wiki">Wiki</a>.
+The package could be donwloaded with ``composer require pixelairport/scout-connect``. For more infos see the <a href="https://github.com/Pixelairport/scout-connect/wiki">Wiki</a>.
