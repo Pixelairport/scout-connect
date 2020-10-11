@@ -1,0 +1,18 @@
+{
+    "name": "pixelairport/scout-connect",
+    "description": "Connect Scout24 APIs with your application.",
+    "keywords": ["pixelairport", "immobilien", "immo scout", "immoscout", "immobilienscout", "immobilienscout24", "api", "real estate", "real estates"],
+    "homepage": "https://github.com/pixelairport/scout-connect",
+    "license": "MIT",
+    "authors": [{
+        "name": "Norman Braun",
+        "email": "office@pixelairport.com"
+    }],
+    "autoload": {
+        "Pixelairport\\ScoutConnect\\": "src/"
+    },
+    "require": {
+        "php": "^7.0|^8.0",
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
