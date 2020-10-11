@@ -17,7 +17,7 @@ Scout Connect ist kostenlos. Aber ich freue mich über jede Unterstützung:
 
 #### Patreon
 
-Unterstütze mich mit einer kleinen monatlichen Spende über <a href="https://patreon.com">Patreon</a>.
+Unterstütze mich mit einer kleinen monatlichen Spende über <a href="https://patreon.com/pixelairport">Patreon</a>.
 
 #### Twitch
 
@@ -34,11 +34,11 @@ This package is free, but I would be happy, if you could support my work.
 
 #### Patreon
 
-Support me with a small monthly fee at <a href="https://patreon.com">Patreon</a>.
+Support me with a small monthly fee at <a href="https://patreon.com/pixelairport">Patreon</a>.
 
 #### Twitch
 
-On my Pixelairport Twitch Channel I support Startups to build great products. You can watch my streams and subscribe my channel. As a Amazon Prime user
+On my <a href="https://twitch.tv/pixelairport">Pixelairport Twitch-Channel</a> I support Startups to build great products. You can watch my streams and subscribe my channel. As a Amazon Prime user
 this is also free for you and I can earn money, even if you did not pay anything extra. I would be happy to see you at my stream. If you have questions, come
 in when I'm live.
 
