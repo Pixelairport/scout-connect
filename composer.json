@@ -15,7 +15,8 @@
     },
     "require": {
         "php": "^7.0|^8.0",
-        "guzzlehttp/guzzle": "^6.0|^7.0"
+        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "guzzlehttp/oauth-subscriber": "0.4.*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
