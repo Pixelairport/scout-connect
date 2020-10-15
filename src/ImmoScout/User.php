@@ -27,10 +27,11 @@ class User
     /**
      * Get all real estate offers from a user.
      *
+     * @param array
      * @return mixed
      */
-    public function findOffers()
+    public function findOffers($parameter=[])
     {
-        return $this->request('GET', '/offer/v1.0/user/me/realestate');
+        return $this->request('GET', '/offer/v1.0/user/me/realestate', $parameter);
     }
 }

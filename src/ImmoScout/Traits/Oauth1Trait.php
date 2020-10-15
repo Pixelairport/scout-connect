@@ -86,7 +86,11 @@ trait Oauth1Trait
     public function request($method, $endpoint, $parameter=[])
     {
         // Do the request
-        $res = $this->client->request($method, $this->api_base_uri . $endpoint, $parameter);
+        if(strtolower($method)=='get'){
+            $res = $this->client->request($method, $this->api_base_uri . $endpoint . $this->parameterArrayToUrlString($parameter));
+        }else{
+            $res = $this->client->request($method, $this->api_base_uri . $endpoint, $parameter);
+        }
 
         // Default return
         if($this->responseType=='xml'){
@@ -104,6 +108,30 @@ trait Oauth1Trait
         }
 
         return $res;
+    }
+
+    /**
+     * Transform parameter array to string.
+     * The string could be used in GET requests to
+     * extend the url.
+     *
+     * @param $parameter
+     * @return string
+     */
+    protected function parameterArrayToUrlString($parameter)
+    {
+        if(is_array($parameter) && count($parameter)>0)
+        {
+            $urlParameter = '?';
+
+            foreach($parameter as $key=>$value){
+                $urlParameter .= $key.'='.$value.'&';
+            }
+
+            return substr($urlParameter, 0, -1);
+        }
+
+        return '';
     }
 
     /**
